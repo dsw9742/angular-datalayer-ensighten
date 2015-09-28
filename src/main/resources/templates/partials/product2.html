@@ -1,0 +1,10 @@
+<div style="background-color: LightBlue; width: 300px;">
+	<h1>Product 2</h1>
+	<p>Id: {{product.id}}</p>
+	<p>Name: {{product.name}}</p>
+	<button ng-click="addToCart($event)">Add to cart</button>
+	<div ng-include src="template"></div>
+	<img ng-click="mouseclick($event)" ng-mouseover="mouseover($event)" src="images/product2.png" width="300" height="250"/>
+	<p>This is the product1.html Angular partial template.</p>
+	<p>Technically it is a <em>partial</em> but we treat it like a <em>page</em> with regards to the digitalData object.</p>
+</div>
