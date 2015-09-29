@@ -7,7 +7,7 @@
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.js"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-route.js"></script>
 		<script type="text/javascript">
-			// these could all be namespaced (e.g. var DigitalData = {}; DigitalData.digitalDataLastPageUpdate ... ) if desired
+			// these could all be namespaced (e.g. var DigitalData = {}; DigitalData.digitalDataLastUpdate ... ) if desired
 			var digitalDataLastUpdate = Date.now(); // this object is watched by the tag management system
 			var digitalDataLastEventUpdate = Date.now(); // this object is watched by the tag management system
 			var digitalData = {}; // this object holds the digital data structure and can be utilized by the tag management system. 
@@ -22,7 +22,7 @@
 		</script>
 		<!-- BEGIN: INSERT ENSIGHTEN MANAGE BOOTSTRAP HERE -->
 		<!-- e.g. <script src="//nexus.ensighten.com/{account}/{space}/Bootstrap.js"></script> -->
-		<!-- END: INSERT ENSIGHTEN MANAGE BOOTSTRAP HERE -->		
+		<!-- END: INSERT ENSIGHTEN MANAGE BOOTSTRAP HERE -->
 	</head>
 	<body ng-app="app">
 	  <div class="container" style="background-color: LightGray;">
